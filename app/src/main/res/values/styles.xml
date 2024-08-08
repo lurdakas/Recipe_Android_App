@@ -1,0 +1,4 @@
+<resources>
+    <style name="Theme.Recipes" parent="Theme.AppCompat.Light">
+    </style>
+</resources>

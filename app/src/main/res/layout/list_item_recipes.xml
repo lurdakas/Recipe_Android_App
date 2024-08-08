@@ -1,0 +1,90 @@
+<!-- res/layout/list_item_recipes.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:paddingBottom="4dp"
+        android:ellipsize="end"
+        android:maxLines="1" />
+
+    <!-- Description -->
+    <TextView
+        android:id="@+id/textViewDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:paddingBottom="4dp"
+        android:ellipsize="end"
+        android:maxLines="1" />
+
+    <!-- Instructions -->
+    <TextView
+        android:id="@+id/textViewInstructions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:paddingBottom="4dp"
+        android:ellipsize="end"
+        android:maxLines="1" />
+
+    <!-- Prep Time -->
+    <TextView
+        android:id="@+id/textViewPrepTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:paddingBottom="4dp"
+        android:ellipsize="end"
+        android:maxLines="1" />
+
+    <!-- Cook Time -->
+    <TextView
+        android:id="@+id/textViewCookTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:paddingBottom="4dp"
+        android:ellipsize="end"
+        android:maxLines="1" />
+
+    <!-- Servings -->
+    <TextView
+        android:id="@+id/textViewServings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:paddingBottom="4dp"
+        android:ellipsize="end"
+        android:maxLines="1" />
+
+    <!-- Buttons Container -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="end">
+
+        <!-- Edit Button -->
+        <Button
+            android:id="@+id/buttonEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Edit" />
+
+        <!-- Delete Button -->
+        <Button
+            android:id="@+id/buttonDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delete" />
+    </LinearLayout>
+</LinearLayout>
